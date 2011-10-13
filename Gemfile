@@ -6,3 +6,4 @@ gem 'guard-rspec'
 
 gem 'highline'
 gem 'sinatra'
+gem 'growl_notify'

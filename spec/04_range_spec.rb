@@ -31,7 +31,7 @@ describe "Range objects" do
 
   it "get #map method from the Enumerable class" do
 
-    ('a'..'d').map{|c| c.upcase }.to_a.should eq ['A','B','C','D']
+    ('a'..'d').map{|c| c.upcase }.should eq ['A','B','C','D']
 
   end
 
